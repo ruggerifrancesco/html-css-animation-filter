@@ -186,16 +186,32 @@
 }
 
 /* Excercise 12 */
-.ex-12-top-white:hover {
+.ex-12-button:hover .ex-12-top-white {
     animation: ex-12-top-move 2s linear;
 }
     @keyframes ex-12-top-move {
-        
+        0% {
+            left: 10%;
+        }
+        50% {
+            left: 69%;
+        }
+        100% {
+            left: 10%;
+        }
     }
 
-.ex-12-bottom-white:hover {
-    animation: ex-12-btop-move 2s linear;;
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: ex-12-btop-move 2s linear;
 }
     @keyframes ex-12-btop-move {
-        
+        0% {
+            right: 20%;
+        }
+        50% {
+            right: 69%;
+        }
+        100% {
+            right: 20%;
+        }
     }
