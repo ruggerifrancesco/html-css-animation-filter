@@ -67,3 +67,14 @@
     width: 60px;
     height: 20px;
 }
+
+/* CSS Animation Solutions */
+
+/* Exercise 1 */
+.ex-1-square {
+    transition: all 1.5s ease-in-out;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
