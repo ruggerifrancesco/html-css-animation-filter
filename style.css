@@ -78,3 +78,12 @@
 .ex-1-square:hover {
     background-color: red;
 }
+
+/* Excercise 2 */
+.ex-2-square {
+    transition: 1.8s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
