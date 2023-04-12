@@ -126,9 +126,9 @@
 
 /* Excercise 7 */
 .ex-7-img {
-    transition: 1s;
+    transition: 1.5s ease-in-out;
 }
 
 .ex-7-img:hover {
-    filter: saturate(20%) grayscale(10%);
+    filter: grayscale(50%) sepia(50%);
 }
