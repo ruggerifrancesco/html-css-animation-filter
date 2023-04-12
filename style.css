@@ -256,11 +256,11 @@
             bottom: -10px;
         }
         30% {
-            right: 90%;
+            right: 80%;
             bottom: -10px;
         }
         40% {
-            right: 90%;
+            right: 80%;
             bottom: calc(100% - 10px);
         }
         80% {
