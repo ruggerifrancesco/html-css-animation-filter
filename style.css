@@ -126,9 +126,11 @@
 
 /* Excercise 7 */
 .ex-7-img {
-    transition: 1.5s ease-in-out;
+    transition: 1.2s ease-in-out;
 }
 
 .ex-7-img:hover {
     filter: grayscale(50%) sepia(50%);
 }
+
+/* Excercise 88 */
