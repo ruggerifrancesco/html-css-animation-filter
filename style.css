@@ -133,4 +133,12 @@
     filter: grayscale(50%) sepia(50%);
 }
 
-/* Excercise 88 */
+/* Excercise 8 */
+.ex-8-img {
+    transition: 1.2s ease-in-out;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(40%) sepia(50%);
+    border-radius: 2rem;
+}
