@@ -167,3 +167,21 @@
         rotate: 0deg;
     }
 }
+
+/* Excercise 11 */
+.ex-11-icon:hover {
+    animation: rotate-2 2s linear;
+    animation-fill-mode: initial;
+}
+
+@keyframes rotate-2 {
+    0% {
+        rotate: 0deg;
+    }
+    90% {
+        rotate: 280deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
