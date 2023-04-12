@@ -171,7 +171,6 @@
 /* Excercise 11 */
 .ex-11-icon:hover {
     animation: rotate-2 2s linear;
-    animation-fill-mode: initial;
 }
 
 @keyframes rotate-2 {
@@ -185,3 +184,18 @@
         rotate: 0deg;
     }
 }
+
+/* Excercise 12 */
+.ex-12-top-white:hover {
+    animation: ex-12-top-move 2s linear;
+}
+    @keyframes ex-12-top-move {
+        
+    }
+
+.ex-12-bottom-white:hover {
+    animation: ex-12-btop-move 2s linear;;
+}
+    @keyframes ex-12-btop-move {
+        
+    }
