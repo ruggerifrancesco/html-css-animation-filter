@@ -123,3 +123,12 @@
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+
+/* Excercise 7 */
+.ex-7-img {
+    transition: 1s;
+}
+
+.ex-7-img:hover {
+    filter: saturate(20%) grayscale(10%);
+}
