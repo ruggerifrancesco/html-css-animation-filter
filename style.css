@@ -248,9 +248,9 @@
     }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: ex-13-btop-move 2s linear;
+    animation: ex-13-btom-move 2s linear;
 }
-    @keyframes ex-13-btop-move {
+    @keyframes ex-13-btom-move {
         0% {
             right: 20%;
             bottom: -10px;
